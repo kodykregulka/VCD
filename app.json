@@ -1,0 +1,12 @@
+{
+  "name": "VCD",
+  "displayName": "VCD",
+  "expo": {
+    "name": "VCD",
+    "slug": "VCD",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
