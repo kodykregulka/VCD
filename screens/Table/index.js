@@ -31,10 +31,14 @@ const TableScreen = ({ navigation }) => {
       
       <Text style={{textAlign: 'center'}}>Table Screen</Text> 
       
-      <PlayingCard style={styles.card_red} text='4' icon={DiamondIcon} x={100} y={100}/>
-      <PlayingCard style={styles.card_red} text='K' icon={HeartIcon}/>
-      <PlayingCard style={styles.card_black} text='10' icon={SpadeIcon}/>
-      <PlayingCard style={styles.card_black} text='J' icon={ClubIcon}/>
+      <PlayingCard style={styles.card_red} text='4' icon={DiamondIcon} faceup={false} x={150} y={300}/>
+      <PlayingCard style={styles.card_red} text='K' icon={HeartIcon} faceup={false} x={150} y={300}/>
+      <PlayingCard style={styles.card_black} text='10' icon={SpadeIcon} faceup={false} x={150} y={300}/>
+      <PlayingCard style={styles.card_black} text='J' icon={ClubIcon} faceup={false} x={150} y={300}/>
+      <PlayingCard style={styles.card_red} text='Q' icon={DiamondIcon} faceup={false} x={150} y={300}/>
+      <PlayingCard style={styles.card_black} text='A' icon={SpadeIcon} faceup={false} x={150} y={300}/>
+      <PlayingCard style={styles.card_red} text='2' icon={HeartIcon} faceup={false} x={150} y={300}/>
+      <PlayingCard style={styles.card_black} text='3' icon={ClubIcon} faceup={false} x={150} y={300}/>
       
     </View>
   );

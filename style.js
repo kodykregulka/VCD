@@ -33,6 +33,12 @@ const styles = StyleSheet.create({
         padding: 10,
         margin: 10
     },
+    search_bar:{
+      textAlign: 'center',
+      borderColor: "black",
+      borderWidth: 1.5,
+      borderRadius: 20
+    },
     card_front: {
       width: 100,
       height: 150,
