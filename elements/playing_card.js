@@ -7,10 +7,19 @@ import styles from '../style.js';
 
 const PlayingCard = (props) => {
 
-    const [viewState, setView] = useState(false);
-    // [temp, setTemp] = useState(0)
+    const dropCard = (x, y) => {
+        //alert(x + " : " + y);
+
+    };
+
+    const [viewState, setView] = useState(props.faceup);
+ 
     return (
-        <Draggable x={props.x} y={props.y} onShortPressRelease={() => setView(!viewState)}> 
+        <Draggable 
+            x={props.x} y={props.y} 
+            onShortPressRelease={() => setView(!viewState)}
+            onDragRelease={(e) => dropCard(e.nativeEvent.pageX, e.nativeEvent.pageY)}
+            > 
             {viewState  === true? (
                 <View style={styles.card_front} >
                 
