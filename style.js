@@ -32,6 +32,24 @@ const styles = StyleSheet.create({
         textAlign:'center',
         padding: 10,
         margin: 10
+    },
+    card_shape: {
+      width: 100,
+      height: 150,
+      backgroundColor: 'red',
+      borderColor: "black",
+      borderWidth: 1.5,
+      borderRadius: 20,
+      backgroundColor: "#FFFFFF",
+      flexDirection: 'row'
+    },
+    card_red: {
+      color: 'red',
+      fontSize: 30
+    },
+    card_black: {
+      color: 'black',
+      fontSize: 30
     }
   });
 

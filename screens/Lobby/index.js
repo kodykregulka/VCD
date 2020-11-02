@@ -7,7 +7,7 @@ const LobbyScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={{textAlign: 'center'}}>Lobby Screen</Text> 
-      <Text style={{textAlign: 'center'}}>Where players all meet before host launches session</Text>
+      <Text style={{textAlign: 'center'}}>Where players all meet before host launches game</Text>
       <Text style={{textAlign: 'center'}}>Players can view config and chat, host sets config and launches game</Text>
       <TouchableOpacity 
         style={styles.button}
