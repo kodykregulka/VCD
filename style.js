@@ -33,10 +33,9 @@ const styles = StyleSheet.create({
         padding: 10,
         margin: 10
     },
-    card_shape: {
+    card_front: {
       width: 100,
       height: 150,
-      backgroundColor: 'red',
       borderColor: "black",
       borderWidth: 1.5,
       borderRadius: 20,
@@ -50,6 +49,20 @@ const styles = StyleSheet.create({
     card_black: {
       color: 'black',
       fontSize: 30
+    },
+    card_logo:{
+      color: 'gray',
+      fontSize: 15,
+      textAlign: 'center'
+    },
+    card_back: {
+      width: 100,
+      height: 150,
+      borderColor: "black",
+      borderWidth: 1.5,
+      borderRadius: 20,
+      backgroundColor: "#1839a1",
+      justifyContent: 'center'
     }
   });
 
